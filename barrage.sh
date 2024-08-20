@@ -38,6 +38,7 @@ fi
 
 source ./local-settings.cfg
 cd data
+cat savename.txt
 SAVENAME=`cat savename.txt`
 
 git pull
